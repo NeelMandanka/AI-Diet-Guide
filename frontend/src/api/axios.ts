@@ -10,7 +10,7 @@ import {
 
 export const api = axios.create({
   baseURL: env.apiBaseUrl,
-  timeout: 15000,
+  timeout: 60000,
   headers: {
     "Content-Type": "application/json",
   },
@@ -22,7 +22,7 @@ export const api = axios.create({
  */
 const refreshClient = axios.create({
   baseURL: env.apiBaseUrl,
-  timeout: 15000,
+  timeout: 60000,
 });
 
 api.interceptors.request.use((config) => {
