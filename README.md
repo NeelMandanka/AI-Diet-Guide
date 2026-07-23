@@ -40,15 +40,6 @@ The application securely stores generated diet plans, allowing users to review t
 
 ---
 
-# 🖥️ Live Demo
-
-| Service | URL |
-|---------|-----|
-| 🌐 Frontend | **Add Your Render Frontend URL** |
-| ⚙️ Backend API | **Add Your Render Backend URL** |
-
----
-
 # 🏗️ System Architecture
 
 ```text
@@ -346,8 +337,6 @@ This approach ensures that every generated diet plan follows a predefined schema
 
 # 📸 Application Screenshots
 
-Add screenshots in the `screenshots/` folder and update the paths below.
-
 | Screen | Preview |
 |---------|---------|
 | Login | `screenshots/login.png` |
@@ -406,16 +395,6 @@ Contributions are welcome!
 - PostgreSQL
 - Neon
 - Render
-
----
-
-# 👨‍💻 Author
-
-**Neel Mandanka**
-
-Bachelor of Technology (Information Technology)
-
-Sarvajanik University
 
 ---
 
