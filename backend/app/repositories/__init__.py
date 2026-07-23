@@ -1,0 +1,5 @@
+from app.repositories.user_repository import UserRepository
+from app.repositories.profile_repository import ProfileRepository
+from app.repositories.user_repository import UserRepository
+from app.repositories.profile_repository import ProfileRepository
+from app.repositories.diet_repository import DietRepository
