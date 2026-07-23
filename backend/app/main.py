@@ -26,13 +26,11 @@ app.add_middleware(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        # Vite Development
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-
-        # Docker Frontend (Nginx)
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://ai-diet-guide.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -50,6 +48,7 @@ app.add_middleware(
         "localhost",
         "127.0.0.1",
         "*.localhost",
+        "*.onrender.com",
     ],
 )
 
