@@ -1,4 +1,5 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
+import os
 
 
 class Settings(BaseSettings):
@@ -17,7 +18,7 @@ class Settings(BaseSettings):
 
     GEMINI_API_KEY: str
 
-    GEMINI_MODEL: str = "gemini-3.5-flash"
+    GEMINI_MODEL: str = os.getenv("GEMINI_MODEL")
 
     model_config = SettingsConfigDict(
         env_file=".env",
